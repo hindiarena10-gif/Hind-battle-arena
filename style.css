@@ -1612,5 +1612,82 @@ body {
         min-width: 0;
         flex: 1;
         padding: 12px 8px;
-    }
+    }     }
+ hehh.      }
+} /* ==========================================
+   ⚡ HINDI BATTLE ARENA — GAME FOOTER
+========================================== */
+
+.game-footer {
+  margin-top: 50px;
+  padding: 25px 20px;
+
+  text-align: center;
+
+  background: #080a0d;
+  border-top: 1px solid rgba(0, 174, 255, 0.25);
+
+  box-shadow:
+    0 -8px 25px rgba(0, 174, 255, 0.05);
+}
+
+.game-footer h3 {
+  margin: 0 0 8px;
+
+  color: #ffffff;
+  font-size: 1.2rem;
+
+  text-shadow:
+    0 0 12px rgba(0, 174, 255, 0.2);
+}
+
+.game-footer p {
+  margin: 0 0 15px;
+
+  color: #8995a3;
+  font-size: 0.9rem;
+}
+
+/* 🔗 Footer Links */
+
+.game-footer a {
+  color: #00aeff;
+  text-decoration: none;
+  font-weight: 700;
+
+  transition: all 0.25s ease;
+}
+
+.game-footer a:hover {
+  color: #25c7ff;
+
+  text-shadow:
+    0 0 10px rgba(0, 174, 255, 0.7);
+}
+
+/* ⚔️ Divider */
+
+.game-footer .footer-line {
+  width: 80px;
+  height: 2px;
+
+  margin: 15px auto;
+
+  background: #00aeff;
+
+  box-shadow:
+    0 0 10px rgba(0, 174, 255, 0.6);
+
+  border-radius: 10px;
+}
+
+/* 📱 MOBILE */
+
+@media (max-width: 600px) {
+  .game-footer {
+    padding: 22px 15px;
+  }
+}
+/* 
+  }
 }
